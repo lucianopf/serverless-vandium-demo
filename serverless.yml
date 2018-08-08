@@ -1,0 +1,20 @@
+service: serverless-vandium-demo
+provider:
+  name: aws
+  runtime: nodejs8.10
+functions:
+  user:
+    handler: src/index.user
+    events:
+      - http:
+          path: user
+          method: get
+          cors: true
+      - http:
+          path: user/{id}
+          method: get
+          cors: true
+      - http:
+          path: user
+          method: post
+          cors: true

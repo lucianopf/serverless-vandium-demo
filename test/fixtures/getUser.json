@@ -1,0 +1,62 @@
+{
+  "resource": "/user",
+  "path": "/user",
+  "httpMethod": "GET",
+  "headers": {
+    "Accept": "*/*",
+    "Accept-Encoding": "gzip, deflate",
+    "cache-control": "no-cache",
+    "CloudFront-Forwarded-Proto": "https",
+    "CloudFront-Is-Desktop-Viewer": "true",
+    "CloudFront-Is-Mobile-Viewer": "false",
+    "CloudFront-Is-SmartTV-Viewer": "false",
+    "CloudFront-Is-Tablet-Viewer": "false",
+    "CloudFront-Viewer-Country": "BR",
+    "Content-Type": "application/json",
+    "Host": "tu13wsb369.execute-api.us-east-1.amazonaws.com",
+    "Postman-Token": "9cbcaab1-fcab-471e-b3f5-6bee6419f221",
+    "User-Agent": "PostmanRuntime/6.1.6",
+    "Via": "1.1 bc52bb885ffa664ce4666f3bb0457488.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Id": "tsXw29AXnd5sE4a8kemliR44QN-t2tB7C8eE3gFhlSTJomYhnkIlvA==",
+    "X-Amzn-Trace-Id": "Root=1-5b6a147e-9ab3cc3c100dd27cf513035c",
+    "X-Forwarded-For": "181.213.93.55, 205.251.221.103",
+    "X-Forwarded-Port": "443",
+    "X-Forwarded-Proto": "https"
+  },
+  "queryStringParameters": {},
+  "pathParameters": {},
+  "stageVariables": null,
+  "requestContext": {
+    "resourceId": "q7h6zu",
+    "resourcePath": "/user",
+    "httpMethod": "POST",
+    "extendedRequestId": "LRgjsEyKIAMFuXQ=",
+    "requestTime": "07/Aug/2018:21:51:58 +0000",
+    "path": "/dev/user",
+    "accountId": "937607034339",
+    "protocol": "HTTP/1.1",
+    "stage": "dev",
+    "requestTimeEpoch": 1533678718031,
+    "requestId": "1b620ec6-9a8c-11e8-9818-65bff69d76c3",
+    "identity": {
+      "cognitoIdentityPoolId": null,
+      "accountId": null,
+      "cognitoIdentityId": null,
+      "caller": null,
+      "sourceIp": "181.213.93.55",
+      "accessKey": null,
+      "cognitoAuthenticationType": null,
+      "cognitoAuthenticationProvider": null,
+      "userArn": null,
+      "userAgent": "PostmanRuntime/6.1.6",
+      "user": null
+    },
+    "apiId": "tu13wsb369"
+  },
+  "body": {
+    "name": "1234"
+  },
+  "isBase64Encoded": false,
+  "rawBody": "{\n\t\"name\": \"1234\"\n}",
+  "cookies": {}
+}
